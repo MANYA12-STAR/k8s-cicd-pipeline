@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/flask-k8s-app
+  IMAGE: ${{ secrets.DOCKER_USERNAME }}/flask-k8s-app
 
 jobs:
   test:
